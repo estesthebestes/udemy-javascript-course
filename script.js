@@ -53,4 +53,36 @@ console.log(population); */
 
 // console.log(typeof country); 
 
+/* let age = 24; 
+age = 25; 
 
+var job = 'programmer'; 
+job = 'teacher'; */ 
+
+const now = 2037; 
+const ageHunter = now - 1997;
+const ageCaitlin = now - 1998;  
+console.log(ageHunter, ageCaitlin);
+
+console.log(ageHunter * 2, ageCaitlin / 10, ageHunter ** 3); 
+
+const firstName = 'Hunter'; 
+const lastName = 'Estes'; 
+console.log(firstName + ' ' + lastName);
+
+// Assignment Operators
+
+let x = 10 + 5; 
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x +* 4
+x++; // x = x + 1 
+
+console.log(x); 
+
+//comparison operatiors
+console.log(ageHunter > ageCaitlin);  
+
+console.log(ageCaitlin >= 18); 
+
+const isFullAge = ageCaitlin >= 18; 
+console.log(now - 1991);
