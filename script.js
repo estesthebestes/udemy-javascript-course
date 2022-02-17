@@ -59,16 +59,16 @@ age = 25;
 var job = 'programmer'; 
 job = 'teacher'; */ 
 
-const now = 2037; 
+/* const now = 2037; 
 const ageHunter = now - 1997;
 const ageCaitlin = now - 1998;  
-console.log(now - ageHunter > now - ageCaitlin);
+console.log(now - ageHunter > now - ageCaitlin); */
 
 // console.log(ageHunter * 2, ageCaitlin / 10, ageHunter ** 3); 
 
-const firstName = 'Hunter'; 
-const lastName = 'Estes'; 
-console.log(firstName + ' ' + lastName);
+//const firstName = 'Hunter'; 
+// const lastName = 'Estes'; 
+// console.log(firstName + ' ' + lastName);
 
 // Assignment Operators
 
@@ -100,3 +100,24 @@ console.log(halfPopulation > averageCountryPopulation)
 
 let desciption = 'Portugal is in Europe, and its 11 million people speak Portuguese'
 console.log(desciption) */
+
+//let x, y; 
+//x = y = 25 -10 -5; 
+// console.log(x, y) 
+
+// const averageAge = (ageHunter + ageCaitlin) / 2; 
+// console.log(ageHunter, ageCaitlin ,averageAge)
+
+let markBodyMass = 78
+let markHeight = 1.69
+
+let johnBodyMass = 92
+let johnHeight = 1.95
+
+let bmiMark = markBodyMass / markHeight ** 2; 
+console.log(bmiMark)
+let bmiJohn  = johnBodyMass / johnHeight ** 2; 
+console.log(bmiJohn)
+
+let markHigherBmi = (bmiMark > bmiJohn)
+console.log(markHigherBmi)
