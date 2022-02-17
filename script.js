@@ -108,16 +108,32 @@ console.log(desciption) */
 // const averageAge = (ageHunter + ageCaitlin) / 2; 
 // console.log(ageHunter, ageCaitlin ,averageAge)
 
-let markBodyMass = 78
-let markHeight = 1.69
+let markBodyMass = 78;
+let markHeight = 1.69;
 
-let johnBodyMass = 92
-let johnHeight = 1.95
+let johnBodyMass = 92;
+let johnHeight = 1.95;
 
 let bmiMark = markBodyMass / markHeight ** 2; 
-console.log(bmiMark)
-let bmiJohn  = johnBodyMass / johnHeight ** 2; 
-console.log(bmiJohn)
+console.log(bmiMark);
 
-let markHigherBmi = (bmiMark > bmiJohn)
-console.log(markHigherBmi)
+let bmiJohn  = johnBodyMass / johnHeight ** 2; 
+console.log(bmiJohn);
+
+let markHigherBmi = (bmiMark > bmiJohn);
+console.log(markHigherBmi);
+
+//temperate literals
+const firstname = 'Hunter';
+const job = 'programmer';
+const birthYear = 1997
+const year = 2022
+
+const hunter = "I'm" + firstname + ", a " + (year - birthYear) + 'years old ' + job + "!";
+console.log(hunter); 
+
+const hunterNew = `I'm ${firstname}, a ${year - birthYear} year old ${job}!`
+console.log(hunterNew);
+
+console.log(`Just a regular string, just a regular string...`); 
+
