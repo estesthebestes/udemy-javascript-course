@@ -62,9 +62,9 @@ job = 'teacher'; */
 const now = 2037; 
 const ageHunter = now - 1997;
 const ageCaitlin = now - 1998;  
-console.log(ageHunter, ageCaitlin);
+console.log(now - ageHunter > now - ageCaitlin);
 
-console.log(ageHunter * 2, ageCaitlin / 10, ageHunter ** 3); 
+// console.log(ageHunter * 2, ageCaitlin / 10, ageHunter ** 3); 
 
 const firstName = 'Hunter'; 
 const lastName = 'Estes'; 
@@ -72,12 +72,12 @@ console.log(firstName + ' ' + lastName);
 
 // Assignment Operators
 
-let x = 10 + 5; 
-x += 10; // x = x + 10 = 25
-x *= 4; // x = x +* 4
-x++; // x = x + 1 
+// let x = 10 + 5; 
+// x += 10; // x = x + 10 = 25
+// x *= 4; // x = x +* 4
+// x++; // x = x + 1 
 
-console.log(x); 
+/* console.log(x); 
 
 //comparison operatiors
 console.log(ageHunter > ageCaitlin);  
@@ -86,3 +86,17 @@ console.log(ageCaitlin >= 18);
 
 const isFullAge = ageCaitlin >= 18; 
 console.log(now - 1991);
+
+let halfPopulation = 15000000 
+console.log(halfPopulation); 
+
+console.log(halfPopulation + 1); 
+
+let finland = 6000000
+console.log(halfPopulation > finland)
+
+let averageCountryPopulation = 3400000
+console.log(halfPopulation > averageCountryPopulation)
+
+let desciption = 'Portugal is in Europe, and its 11 million people speak Portuguese'
+console.log(desciption) */
