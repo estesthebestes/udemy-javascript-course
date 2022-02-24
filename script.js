@@ -107,7 +107,7 @@ console.log(desciption) */
 
 // const averageAge = (ageHunter + ageCaitlin) / 2; 
 // console.log(ageHunter, ageCaitlin ,averageAge)
-
+/*
 let markBodyMass = 78;
 let markHeight = 1.69;
 
@@ -137,3 +137,37 @@ console.log(hunterNew);
 
 console.log(`Just a regular string, just a regular string...`); 
 
+console.log(`I 
+am 
+on multiplie 
+lines`)
+
+*/
+
+const age = 15; 
+
+if (age >= 18) {
+    console.log(`Sarah can start driving license 😽 `)
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years`)
+}
+
+/*if else control structure 
+if() {
+
+} else {
+
+}
+*/ 
+
+
+const birthYear = 1997; 
+
+let century;  
+if (birthYear <= 2000) {
+    century = 20; 
+} else {
+     century = 21;
+}
+console.log(century); 
