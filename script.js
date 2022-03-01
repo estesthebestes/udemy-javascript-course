@@ -171,3 +171,24 @@ if (birthYear <= 2000) {
      century = 21;
 }
 console.log(century); 
+
+let markBodyMass = 95;
+let markHeight = 1.71;
+
+let johnBodyMass = 92;
+let johnHeight = 1.71;
+
+let bmiMark = markBodyMass / markHeight ** 2; 
+console.log(bmiMark);
+
+let bmiJohn  = johnBodyMass / johnHeight ** 2; 
+console.log(bmiJohn);
+
+let markHigherBmi = (bmiMark > bmiJohn);
+console.log(markHigherBmi);
+
+if (bmiMark > bmiJohn) {
+    console.log(`Mark's BMI ${(bmiMark)} is higher than John's ${(bmiJohn)}.`)
+} else {
+    console.log(`John's BMI ${(bmiJohn)} is higher than Mark's ${bmiMark}.`)
+}
